@@ -1,0 +1,13 @@
+            <div id="header">
+                
+            </div>
+
+            <div id="links">
+
+                <a href="https://github.com/yurecouto"><img src="Images/github.png" alt="" height="60px"></a>
+                <a href="https://www.linkedin.com/in/yure-couto-8951a5176/"><img src="Images/linkedin.png" alt="" height="60px"></a>
+                <a href="https://twitter.com/yure_bcouto"><img src="Images/twitter.png" alt="" height="60px"></a>
+                <a href="https://www.freelancer.com/u/yurecouto"><img src="Images/freelancer.png" alt="" height="60px"></a>
+                <a href="https://www.upwork.com/freelancers/~01014c6aa15efe5bc1"><img src="Images/upwork.png" alt="" height="60px"></a>
+
+            </div>
