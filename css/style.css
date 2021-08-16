@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    font-family: Hack;
+    color: rgb(211, 211, 211);
 }
 
 @font-face {
@@ -10,16 +12,19 @@ body {
 #container {
     width: 80%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     margin: 0 auto;
     margin-top: 120px;
     text-align: center;
 }
 
+/*------------ HEAD OF THE SITE ------------*/
 header {
     width: 100%;
-    height: 280px;
+    height: 480px;
+    /*background: rgba(31,30,31,255);*/
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
 }
 
 #border {
@@ -31,22 +36,179 @@ header {
     margin-left: auto;
 }
 
-nav {
-    border: 5px solid rgb(174, 0, 255);
+#title {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+#about {
+    margin-top: -5;
+}
+
+#about h3 {
+    font-size: 28px;
+}
+
+#about p {
+    font-size: 22px;
+}
+
+#find {
+    margin-top: -100px;
+}
+
+#links {
+    width: 100%;
+    height: 60px;
+}
+
+#links img{
+    border-radius: 100%;
+    margin-top: -15px;
+    height: 60px;
+    width: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#message {
+    width: 100%;
+    margin-top: 120px;
+    font-size: 28px;
+}
+
+/*------------*/
+
+article {
     border-radius: 20px;
-    height: 720px;
-    width: 30%;
+    height: 100%;
+    width: 100%;
     margin-top: 20px;
     float: left;
 }
 
-article {
-    border: 5px solid rgb(0, 217, 255);
+article h1 {
+    font-size: 35px;
+}
+
+article h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#info_1 {
+    background: rgba(31,30,31,255);
+    float: left;
+    height: 480px;
+    width: 35%;
+    border: 5px solid rgb(0, 195, 255);
     border-radius: 20px;
-    height: 720px;
-    width: 68%;
-    margin-top: 20px;
+}
+
+#info_1 h1{
+    font-size: 28px;
+}
+
+#info_1 p{
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info_1 a {
+    font-size: 22px;
+}
+
+#project_1 {
     float: right;
+    height: 520px;
+    width: 62%;
+    border-radius: 20px;
+}
+
+#project_1 img {
+    border-radius: 20px;
+    height: 480px;
+    width: 99%;
+    border: 5px solid rgb(212, 0, 255);
+}
+
+#info_2 {
+    background: rgba(31,30,31,255);
+    float: right;
+    height: 480px;
+    width: 35%;
+    border: 5px solid rgb(0, 195, 255);
+    border-radius: 20px;
+}
+
+#info_2 h1{
+    font-size: 28px;
+}
+
+#info_2 p{
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info_2 a {
+    font-size: 22px;
+}
+
+#project_2 {
+    float: left;
+    height: 520px;
+    width: 62%;
+    border-radius: 20px;
+}
+
+#project_2 iframe {
+    border-radius: 20px;
+    height: 480px;
+    width: 99%;
+    border: 5px solid rgb(212, 0, 255);
+}
+
+#info_3 {
+    background: rgba(31,30,31,255);
+    float: left;
+    height: 480px;
+    width: 35%;
+    border: 5px solid rgb(0, 195, 255);
+    border-radius: 20px;
+}
+
+#info_3 h1{
+    font-size: 28px;
+}
+
+#info_3 p{
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info_3 a {
+    font-size: 22px;
+}
+
+#project_3 {
+    float: right;
+    height: 480px;
+    width: 62%;
+    border-radius: 20px;
+    border: 5px solid rgb(212, 0, 255);
+}
+
+#project_3 iframe {
+    border-radius: 20px;
+    height: 480px;
+    width: 99%;
+
 }
 
 footer {
@@ -58,23 +220,3 @@ footer {
     margin-left: 0px;
 }
 
-#links {
-    width: 100%;
-    height: 60px;
-}
-
-#links img{
-    margin-top: -20px;
-    height: 60px;
-    width: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#message {
-    font-size: 32px;
-    font-family: Hack;
-    color: rgb(211, 211, 211);
-    width: 100%;
-    margin-top: 50px;
-}
